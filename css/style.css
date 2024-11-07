@@ -75,14 +75,17 @@ header .nav-icons{
     HEADER
 --------------*/
 
-header{
-    background-color: orangered;
+header > .container{
     width: 100%;
     min-height: 80px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+
+header{
+    background-color: #FF6900;
 }
 
 header .nav ul{
@@ -109,7 +112,7 @@ header .nav-icons{
 .row{
     min-height: 400px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     gap: 10px;
 }
@@ -172,6 +175,73 @@ header .nav-icons{
     display: none;
 } */
 
+/*--------------
+    HEADER
+--------------*/
+
+footer{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #1A1A1A;
+    line-height: 25px;
+
+}
+
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .info-footer ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .info-footer{
+    padding-top:  30px;
+}
+
+.info-footer ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+}
+
+h2{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* .find-us{
+    display: flex;
+    align-items: center;
+}
+
+.find-us h2{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-icons{
+    font-size: 20px;
+    color: #fff;
+    margin-rig: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+} */
+
+.find-us{
+    text-align: right;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-icons i{
+    margin-left: 10px;
+}
 /*--------------
     DEBUG
 --------------*/
