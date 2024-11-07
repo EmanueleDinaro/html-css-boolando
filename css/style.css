@@ -12,14 +12,56 @@
     GENERAL
 --------------*/
 
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.img-fluid{
+    max-width: 100%;
+}
 
 /*--------------
     HEADER
 --------------*/
 
-
+header{
+    background-color: orangered;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
 
 /*--------------
     MAIN
 --------------*/
+
+.row{
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.col{
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+/*--------------
+    DEBUG
+--------------*/
+
+.container{
+    background-color: lightcoral;
+}
+
+.row{
+    background-color: grey;
+}
+
+.col{
+    background-color: aqua;
+}
