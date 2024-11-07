@@ -48,7 +48,7 @@ header .nav ul li a{
     text-decoration: none;
 }
 
-header .nav-icons{
+header .nav-icons a{
     color: white;
 }
 
@@ -78,7 +78,7 @@ header .nav-icons{
 header > .container{
     width: 100%;
     min-height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +86,7 @@ header > .container{
 
 header{
     background-color: #FF6900;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 header .nav ul{
@@ -96,7 +97,7 @@ header .nav ul{
 }
 
 
-header .logo > img{
+header .logo img{
     height: 50px;
 }
 
@@ -154,6 +155,7 @@ header .nav-icons{
 
 .like:hover{
     color: red;
+    cursor: pointer;
 }
 
 .img-fluid{
@@ -214,29 +216,14 @@ h2{
     font-size: 18px;
 }
 
-/* .find-us{
-    display: flex;
-    align-items: center;
-}
-
-.find-us h2{
-    color: #fff;
-    font-size: 14px;
-}
-
-.footer-icons{
-    font-size: 20px;
-    color: #fff;
-    margin-rig: 20px;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-} */
-
-.find-us{
+.find-us .footer-icons{
     text-align: right;
     margin-top: 20px;
     color: white;
+}
+
+.footer-icons a{
+    color: #fff;
 }
 
 .footer-icons i{
