@@ -140,6 +140,18 @@ header .nav-icons{
 .eco-tag{
     background-color: green;
 }
+
+.like{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.like:hover{
+    color: red;
+}
 /*--------------
     DEBUG
 --------------*/
