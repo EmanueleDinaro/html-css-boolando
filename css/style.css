@@ -152,6 +152,26 @@ header .nav-icons{
 .like:hover{
     color: red;
 }
+
+.img-fluid{
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.img-hidden{
+    max-width: 100%;
+}
+
+.img-fluid:hover{
+    display: none;
+}
+
+/* .col:hover{
+    display: none;
+} */
+
 /*--------------
     DEBUG
 --------------*/
