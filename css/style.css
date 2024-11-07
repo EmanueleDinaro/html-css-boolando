@@ -87,6 +87,9 @@ header > .container{
 header{
     background-color: #FF6900;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 header .nav ul{
