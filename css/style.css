@@ -51,6 +51,12 @@ header .nav ul li a{
 header .nav-icons{
     color: white;
 }
+
+.discount-tag-container > *{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
 /*--------------
     GENERAL
 --------------*/
@@ -113,19 +119,39 @@ header .nav-icons{
     position: relative;
 }
 
+.discount-tag-container > *{
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
 
+.discount-tag-container{
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+
+.discount-tag{
+    background-color: red;
+}
+
+.eco-tag{
+    background-color: green;
+}
 /*--------------
     DEBUG
 --------------*/
 
-.container{
+.debug .container{
     background-color: lightcoral;
 }
 
-.row{
+.debug .row{
     background-color: grey;
 }
 
-.col{
+.debug .col{
     background-color: aqua;
 }
