@@ -9,7 +9,7 @@
 }
 
 /*--------------
-    FONT
+    TYPOGRAPHY
 --------------*/
 
 *{
@@ -42,6 +42,15 @@
     text-decoration: line-through;
 }
 
+header .nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .nav-icons{
+    color: white;
+}
 /*--------------
     GENERAL
 --------------*/
@@ -65,8 +74,28 @@ header{
     width: 100%;
     min-height: 80px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+header .nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    line-height: 80px;
+}
+
+
+header .logo > img{
+    height: 50px;
+}
+
+header .nav-icons{
+    line-height: 80px;
+    display: flex;
+    gap: 15px;
+}
 /*--------------
     MAIN
 --------------*/
