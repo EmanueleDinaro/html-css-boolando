@@ -167,13 +167,13 @@ header .nav-icons{
     max-width: 100%;
 }
 
-.img-fluid:hover{
+.col:hover .img-fluid {
     display: none;
 }
 
-/* .col:hover{
-    display: none;
-} */
+.col:hover .img-hidden {
+    display: block;
+}
 
 /*--------------
     HEADER
