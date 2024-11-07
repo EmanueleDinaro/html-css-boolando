@@ -9,6 +9,40 @@
 }
 
 /*--------------
+    FONT
+--------------*/
+
+*{
+    font-family: sans-serif;
+}
+
+/*.article-desc{
+    line-height: 1.5;
+} */
+
+.brand{
+    font-size: 14px;
+}
+
+.article{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.discount-price{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+}
+
+.original-price{
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+/*--------------
     GENERAL
 --------------*/
 
@@ -47,8 +81,9 @@ header{
 
 .col{
     width: calc(100% / 3);
-    height: 400px;
+    position: relative;
 }
+
 
 /*--------------
     DEBUG
